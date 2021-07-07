@@ -17,18 +17,20 @@ Required Directory Structure:
 |   +-- .
 |   +-- train
 |   +-- val
-+-- sar-cov-2_csv
++-- utils
 |   +-- .
-|   +-- densenet201.csv
-|   +-- inception_v3.csv
-|   +-- resnet34.csv
+|   +-- utils_cnn
+|   +-- utils_ensemble.py
 +-- main.py
-+-- probability_extraction
-+-- utils_ensemble.py
 
 ```
-To extract the probabilities on the validation set using the different models run `probability_extraction.py` and save the files in a folder. As an example the probabilities extracted on the SARS-COV-2 dataset has been saved in the folder named `sars-cov-2_csv/`.
+To run the ensemble model on the base learners run the following:
 
-Next, to run the ensemble model on the base learners run the following:
+`python main.py --root "path/"`
 
-`python main.py --data_directory "sars-cov-2_csv/"`
+Available arguments:
+- `--epochs`: Number of epochs of training. Default = 100
+- `--batch_size`: Batch Size. Default = 4
+- `--num_workers`: Number of Worker processes. Default = 2
+- `--learning_rate`: Learning Rate. Default = 0.001
+- `--momentum`: Momentum value. Default = 0.99
