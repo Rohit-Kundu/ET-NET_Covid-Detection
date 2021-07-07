@@ -21,8 +21,7 @@ Required Directory Structure:
 |   +-- .
 |   +-- densenet201.csv
 |   +-- inception_v3.csv
-|   +-- vgg11.csv
-|   +-- wideresnet50-2.csv
+|   +-- resnet34.csv
 +-- main.py
 +-- probability_extraction
 +-- utils_ensemble.py
