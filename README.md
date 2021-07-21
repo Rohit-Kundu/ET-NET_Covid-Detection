@@ -1,5 +1,5 @@
 # ET-NET_Covid-Detection
-Based on our paper "ET-NET: An Ensemble of Transfer Learning Models for Prediction of COVID-19 Infection through Chest CT-scan Images" under review in Springer- Multimedia Tools and Applications.
+Based on our paper "ET-NET: An Ensemble of Transfer Learning Models for Prediction of COVID-19 Infection through Chest CT-scan Images" accepted for publication in Springer- Multimedia Tools and Applications.
 
 # Required Dependencies
 
