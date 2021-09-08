@@ -34,3 +34,20 @@ Available arguments:
 - `--num_workers`: Number of Worker processes. Default = 2
 - `--learning_rate`: Learning Rate. Default = 0.001
 - `--momentum`: Momentum value. Default = 0.99
+
+# Citation
+If this repository helps you in any way, please consider citing our paper:
+```
+Kundu, Rohit, et al. "ET-NET: an ensemble of transfer learning models for prediction of COVID-19 infection through chest CT-scan images." Multimedia Tools and Applications (2021): 1-20.
+```
+Bibtex:
+```
+@article{kundu2021net,
+  title={ET-NET: an ensemble of transfer learning models for prediction of COVID-19 infection through chest CT-scan images},
+  author={Kundu, Rohit and Singh, Pawan Kumar and Ferrara, Massimiliano and Ahmadian, Ali and Sarkar, Ram},
+  journal={Multimedia Tools and Applications},
+  pages={1--20},
+  year={2021},
+  publisher={Springer}
+}
+```
