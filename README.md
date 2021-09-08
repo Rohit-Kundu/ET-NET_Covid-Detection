@@ -38,7 +38,7 @@ Available arguments:
 # Citation
 If this repository helps you in any way, please consider citing our paper:
 ```
-Kundu, R., Singh, P.K., Ferrara, M. et al. ET-NET: an ensemble of transfer learning models for prediction of COVID-19 infection through chest CT-scan images. Multimed Tools Appl (2021). https://doi.org/10.1007/s11042-021-11319-8
+Kundu, Rohit, et al. "ET-NET: an ensemble of transfer learning models for prediction of COVID-19 infection through chest CT-scan images." Multimedia Tools and Applications (2021): 1-20.
 ```
 Bibtex:
 ```
